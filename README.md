@@ -2,7 +2,7 @@
 
 Proyecto de plataformero 3D desarrollado en Godot 4.5 con renderizador Forward+. Este juego presenta un personaje que debe navegar por un nivel 3D recolectando monedas mientras evita caer al vacío.
 
-## 📋 Información del Proyecto
+##  Información del Proyecto
 
 **Versión:** 1.0  
 **Motor:** Godot Engine 4.5  
@@ -10,7 +10,7 @@ Proyecto de plataformero 3D desarrollado en Godot 4.5 con renderizador Forward+.
 **Lenguaje:** GDScript  
 **Plataforma:** Multiplataforma (Windows, macOS, Linux)
 
-## 🎮 Características
+##  Características
 
 - **Controlador de personaje avanzado**
   - Movimiento fluido en 8 direcciones
@@ -51,7 +51,7 @@ Proyecto de plataformero 3D desarrollado en Godot 4.5 con renderizador Forward+.
   - Rotación de cámara con stick derecho
   - Zoom con gatillos
 
-## 🎯 Controles
+##  Controles
 
 ### Teclado
 
@@ -73,7 +73,7 @@ Proyecto de plataformero 3D desarrollado en Godot 4.5 con renderizador Forward+.
 - **Stick derecho**: Rotar cámara
 - **Gatillos (LT/RT o L2/R2)**: Zoom in / Zoom out
 
-## 🏗️ Arquitectura del Proyecto
+## Arquitectura del Proyecto
 
 ### Diseño General
 
@@ -99,7 +99,7 @@ El proyecto usa el sistema de señales de Godot para comunicación entre compone
 4. **Actualización de UI** → HUD._on_coin_collected()
 5. **Seguimiento de cámara** → View._physics_process()
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 Plataformero 3D/
@@ -160,7 +160,7 @@ Plataformero 3D/
 └── README.md                # Este archivo
 ```
 
-## 🚀 Cómo Ejecutar el Proyecto
+## Cómo Ejecutar el Proyecto
 
 ### Requisitos Previos
 
@@ -280,7 +280,7 @@ Los modelos GLTF se importan automáticamente cuando se abre el proyecto. Si nec
 - **Scripts:** 6 scripts principales
 - **Escenas:** 3 escenas principales + múltiples objetos reutilizables
 
-## 🎨 Assets Utilizados
+##  Assets Utilizados
 
 - **Personaje:** Astronaut_FinnTheFrog.gltf (nuevos assets)
 - **Monedas:** Pickup_Sphere.gltf (nuevos assets)
@@ -296,7 +296,7 @@ Los modelos GLTF se importan automáticamente cuando se abre el proyecto. Si nec
 - Se implementaron verificaciones de existencia antes de usar recursos
 - El sistema de animaciones maneja casos donde no hay animaciones disponibles
 
-## 🐛 Solución de Problemas
+##  Solución de Problemas
 
 **El juego no inicia:**
 - Verificar que Godot 4.5 esté instalado
@@ -320,7 +320,7 @@ Los modelos GLTF se importan automáticamente cuando se abre el proyecto. Si nec
 
 Este proyecto es de uso educativo. Los assets utilizados pueden tener sus propias licencias.
 
-## 👤 Autor
+##  Autor
 
 Proyecto desarrollado como parte de un ejercicio académico en Godot 4.5.
 
