@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://platform_kaykit_small"]
+
+[ext_resource type="PackedScene" uid="uid://c5jafosf61ghu" path="res://models/platforms/platform_2x2x1_blue.gltf" id="1_platform"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1"]
+size = Vector3(2, 0.2, 2)
+
+[node name="PlatformKayKitSmall" type="StaticBody3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_platform")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1, 0)
+shape = SubResource("BoxShape3D_1")
+
