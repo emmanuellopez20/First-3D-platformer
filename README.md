@@ -272,7 +272,7 @@ Los modelos GLTF se importan automáticamente cuando se abre el proyecto. Si nec
 - Instanciar `scenes/items/coin.tscn` en `scenes/main.tscn`
 - Posicionar en las coordenadas deseadas
 
-## 📊 Estadísticas del Proyecto
+## Estadísticas del Proyecto
 
 - **Plataformas:** 80+ plataformas de diferentes tamaños
 - **Monedas:** 69 monedas distribuidas en el nivel
@@ -316,7 +316,7 @@ Los modelos GLTF se importan automáticamente cuando se abre el proyecto. Si nec
 - Verificar que el nodo View tenga el target asignado correctamente
 - Verificar que el script view.gd esté asignado
 
-## 📄 Licencia
+##  Licencia
 
 Este proyecto es de uso educativo. Los assets utilizados pueden tener sus propias licencias.
 
@@ -324,7 +324,7 @@ Este proyecto es de uso educativo. Los assets utilizados pueden tener sus propia
 
 Proyecto desarrollado como parte de un ejercicio académico en Godot 4.5.
 
-## 🔗 Recursos Adicionales
+## Recursos Adicionales
 
 - Documentación de Godot: https://docs.godotengine.org/
 - GDScript Reference: https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/
